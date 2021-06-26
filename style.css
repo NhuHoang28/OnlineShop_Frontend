@@ -45,15 +45,50 @@ select {border: 0;background: transparent;}
 .topOne {
 	background-color:#F6F6F6;
 	padding: 7px 0; 
+
 }
 .topOne .language ,.currency {
 
 }
-.topOne ul.account{
+.topOne ul{
 	float: right;
 	list-style-type: none;
 }
-.topOne ul.account li{
+.topOne ul li{
 	display: inline-block;
-	margin-right:10px;
+	margin-left:10px;
+}
+
+.topTwo{ 
+	padding: 50px 0;
+ }
+ .topTwo .logo{
+ 	margin: 5px 0 15px;
+ }
+.topTwo .form-search{
+	float: right;
+}
+.topTwo .form-search input{
+	width: 80%;
+	height: 60px;
+
+
+}
+.topTwo .form-search button{
+	background-color: #222;
+	font-size: 20px;
+	padding: 15px;
+	color: white;
+}
+.topTwo .form-search button:hover{
+	color: #eee;
+}
+.topTwo #cart {
+	float: right;
+	font-weight: 400;
+	for
+}
+.topTwo a{
+	font-size: 20px;
+	padding: 15px;
 }
