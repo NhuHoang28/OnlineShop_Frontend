@@ -65,19 +65,17 @@ select {border: 0;background: transparent;}
  .topTwo .logo{
  	margin: 5px 0 15px;
  }
-.topTwo .form-search{
-	float: right;
-}
+
 .topTwo .form-search input{
-	width: 80%;
-	height: 60px;
+	width: 70%;
+	height: 55px;
 
 
 }
 .topTwo .form-search button{
 	background-color: #222;
 	font-size: 20px;
-	padding: 15px;
+	padding: 13px 15px;
 	color: white;
 }
 .topTwo .form-search button:hover{
@@ -86,9 +84,38 @@ select {border: 0;background: transparent;}
 .topTwo #cart {
 	float: right;
 	font-weight: 400;
-	for
 }
 .topTwo a{
 	font-size: 20px;
-	padding: 15px;
+ 	padding: 15px;
+}
+@media(max-width:768px) {
+	.topTwo #cart {margin-top: 20px;}
+	.topTwo #cart {float: none;}
+}
+
+#menu {background-color: #111;border-radius: 0;}
+.navbar{margin-bottom:0px;	 padding: 0px;}
+#menu #heading {float: left;padding-left: 15px;font-size: 20px;font-weight: 700;line-height: 40px;color: #fff;margin-top: 10px;text-transform: uppercase;}
+#menu .dropdown-menu {background-color: #111;}
+#menu .dropdown-menu li > a:hover {color: #ffffff; }
+#menu .dropdown-inner {display: table;}
+#menu .dropdown-inner ul {display: table-cell;}
+#menu .dropdown-inner a {min-width: 160px;display: block;clear: both;line-height: 20px;font-size: 12px;}
+#menu li.dropdown:hover>a, #menu li.dropdown:focus>a, #menu li.dropdown:active>a{background: #3f3f3f;}
+#menu ul.nav li a{color: #fff;padding: 20px ;text-transform: uppercase;float: left;}
+#menu ul.nav li a:hover{background-color: #3f3f3f;}
+#menu .btn-navbar {font-size: 20px;color: #FFF;padding: 5px 15px;float: right;border: 3px solid #fff;}
+@media (min-width: 768px) {
+	#menu .dropdown:hover .dropdown-menu {display: block;}
+}
+@media(max-width:767px) {
+	#menu .navbar-brand {display: block;color: #fff;}
+	#menu {border-radius: 4px;}
+	#menu .dropdown-inner {display: block;}
+	#menu div.dropdown-inner > ul.list-unstyled {display: block;}
+	#menu .dropdown-inner a {width: 100%;color: #fff;}
+	#menu div.dropdown-menu {margin-left: 0 !important;	padding-bottom: 10px;background-color: rgba(0, 0, 0, 0.1);}
+	#menu .dropdown-menu a:hover,
+	#menu .dropdown-menu ul li a:hover {background: rgba(0, 0, 0, 0.1);}
 }
