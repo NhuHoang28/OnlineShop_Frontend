@@ -94,9 +94,9 @@ select {border: 0;background: transparent;}
 	.topTwo #cart {float: none;}
 }
 
-#menu {background-color: #111;border-radius: 0;}
+#menu {background-color: #111;border-radius: 0;font-size: 13px;}
 .navbar{margin-bottom:0px;	 padding: 0px;}
-#menu #heading {float: left;padding-left: 15px;font-size: 20px;font-weight: 700;line-height: 40px;color: #fff;margin-top: 10px;text-transform: uppercase;}
+#menu #button-test #heading {float: left;padding-left: 15px;font-size: 20px;font-weight: 700;line-height: 40px;color: #fff;margin-top: 10px;text-transform: uppercase;}
 #menu .dropdown-menu {background-color: #111;}
 #menu .dropdown-menu li > a:hover {color: #ffffff; }
 #menu .dropdown-inner {display: table;}
@@ -106,16 +106,35 @@ select {border: 0;background: transparent;}
 #menu ul.nav li a{color: #fff;padding: 20px ;text-transform: uppercase;float: left;}
 #menu ul.nav li a:hover{background-color: #3f3f3f;}
 #menu .btn-navbar {font-size: 20px;color: #FFF;padding: 5px 15px;float: right;border: 3px solid #fff;}
-@media (min-width: 768px) {
-	#menu .dropdown:hover .dropdown-menu {display: block;}
+#menu .dropdown:hover .dropdown-menu {display: block;}
+#menu #button-test span{
+	display: none;
 }
+#menu .btn{
+	padding: 0px;
+	border: none;
+}
+
+
 @media(max-width:767px) {
-	#menu .navbar-brand {display: block;color: #fff;}
-	#menu {border-radius: 4px;}
-	#menu .dropdown-inner {display: block;}
-	#menu div.dropdown-inner > ul.list-unstyled {display: block;}
-	#menu .dropdown-inner a {width: 100%;color: #fff;}
-	#menu div.dropdown-menu {margin-left: 0 !important;	padding-bottom: 10px;background-color: rgba(0, 0, 0, 0.1);}
-	#menu .dropdown-menu a:hover,
-	#menu .dropdown-menu ul li a:hover {background: rgba(0, 0, 0, 0.1);}
+#menu #test {
+	display: none;
+}
+#menu #button-test span{
+	display: block;
+	color: white;
+	float: left;
+	padding: 20px; 
+   text-transform: uppercase;
+}
+
+#menu #button-test:hover #test{
+display: block; 
+}
+#menu #button-test:hover span{
+background-color: #3f3f3f;
+}
+#menu #button-test:visited{ 
+	background-color: red;
+	border: none;
 }
