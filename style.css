@@ -138,3 +138,32 @@ background-color: #3f3f3f;
 	background-color: red;
 	border: none;
 }
+}
+
+#page-content{
+	margin-top: 20px;
+}
+#page-content .item1{
+	background-image: url(images/main-banner1-1903x600.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 360px;
+}
+#page-content .item1:before{
+	content: "";
+	background-image: url(images/main-banner2-1903x600.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	height: 100%;
+	width: 0;
+}
+#page-content .item1:hover:before{
+	width: 100%;
+}
+@media(max-width: 767px){
+	#page-content .item1{
+		height: 96px;
+	}
+}
